@@ -1,0 +1,6 @@
+Date : 31-1-2020:https://www.youtube.com/watch?v=uldt_GTvZFI&list=PLShTCj6cbon9gK9AbDSxZbas1F6b6C_Mx&index=2
+	Youtube link for tutorial: 
+	Started out with searching about what was Fast API and installing the necessary dependencies for it.
+	Created my first Fast API project
+	Started to learn about path and query parameters.
+	Got to know wbout pydantic basemodels in Fast API.
