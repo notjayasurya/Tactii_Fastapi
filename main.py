@@ -5,6 +5,13 @@ from typing import Optional
 
 from pydantic import BaseModel
 
+class PackageIn(BaseModel):
+
+    secret_id:int
+    name :str
+    number :str
+    description: Optional[str] = None
+
 class Package(BaseModel):
     name : str
     number: str
@@ -24,8 +31,12 @@ def get_component(component_id:int):
 def read_component(number: int, text:str):
     return{"number": number, "text": text}
 
-@app.post('/package/{priority}')
-def make_package(priority : int , package:Package, value:bool):
-    return {"priority":priority, **package.dict(), "value":value}
+@app.post('/package/', response_model = Package, response_model_include={'name'})
+def make_package(package:PackageIn):
+    return package
+
+
+
+
 
 
