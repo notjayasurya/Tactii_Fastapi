@@ -4,3 +4,9 @@ Date : 31-1-2020:https://www.youtube.com/watch?v=uldt_GTvZFI&list=PLShTCj6cbon9g
 	Created my first Fast API project
 	Started to learn about path and query parameters.
 	Got to know wbout pydantic basemodels in Fast API.
+
+
+Date: 1-11-2019:
+	Clarified some doubts about pydantic models, the usage.
+	Studied about response model and related response package
+	Started with a simple todo app.
