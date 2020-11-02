@@ -10,3 +10,11 @@ Date: 1-11-2019:
 	Clarified some doubts about pydantic models, the usage.
 	Studied about response model and related response package
 	Started with a simple todo app.
+
+Date: 2-11-2019:
+	
+	Debugged some errors in the existing application
+	Learned and reasearched about Tortoise ORM with FastAPI integration
+	Started a tutorial where databases are used to store data
+	Reasearched and learned about Jinja Templates for extending and inheriting templates.
+	
